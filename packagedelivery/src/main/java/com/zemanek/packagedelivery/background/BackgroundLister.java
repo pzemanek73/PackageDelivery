@@ -12,7 +12,7 @@ import com.zemanek.packagedelivery.util.StopListener;
 public class BackgroundLister implements StopListener {
 
 	private Thread t;
-	private int DELAY = 5000;
+	private int DELAY = 60000;
 	private int CHECK_SLICE = 250;
 	private PackageStorage store;
 	private boolean run = true;
